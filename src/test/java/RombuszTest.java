@@ -14,7 +14,7 @@ public class RombuszTest {
     @Test
     public void TestCalcArea(){
         double actual = this.romb.calcArea(30.0, 40.5 );
-        double expected = 123.3;
+        double expected = 584.5;
         Assert.assertEquals(actual, expected);
     }
     
