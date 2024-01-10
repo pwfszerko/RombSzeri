@@ -11,6 +11,11 @@ public class RombuszTest {
     public void setUp(){
         this.romb = new Rombusz();
     }
+    @Test
+    public void TestCalcArea(){
+        double actual = this.romb.calcArea(30.0);
+        double expected = 
+    }
     
     
 }
